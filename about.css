@@ -1,0 +1,93 @@
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  
+ }
+ ol { 
+   margin-left: 1.4em; 
+   list-style: decimal; 
+   
+ }
+ ul { 
+   margin-left: 1.4em; 
+   list-style:square; 
+   
+ }
+ img {
+   border: 0;
+   
+ }
+ 
+
+ body {
+   color: white;
+   background: rgb(0, 0, 29) url(images/polohorse.png) repeat-x;
+   font-family: "Palatino Linotype", Garamond, serif;
+   max-width: 1111px;
+   margin: 0 auto;
+   margin-top: 200px;
+   
+ }
+ h1{
+  font-size: 3em;
+  color: whitesmoke;
+  text-shadow: 5px 5px 5px yellow;
+  font-family: 'seaweed script', cursive;
+}
+ aside {
+   float: left;
+   width: 35%;
+   background-color: black;
+   padding: 15px;
+   font-size: 13px;
+   color: white;
+   border: 2px dotted blue;
+   
+ }
+ 
+ aside img { float: left;
+  padding: 0 10px 0 0;
+}
+section h2{
+  padding: 0 0 0 0px;
+ 
+  
+}
+section img { float: right;
+  padding: 0 5px 0 0;
+  overflow: hidden;
+}
+ article {
+   float: left;
+   width: 55%;
+   margin-left: 10px;
+   color: white;
+  
+   
+ }
+ article h2 {
+   padding: 0 0 2px 0px;
+   border-bottom: 2px dotted blue;
+ 
+ }
+ 
+ h2 {
+   font-size: 2.2em;
+   color: red;
+   text-shadow: 0 5px 7px black,0 -5px 7px white, -10px 0 17px red, 10px 0 17px blue;
+   margin-bottom: 5px;
+   border-bottom: 2px dotted blue;
+   padding: 0 0 2px 0px;
+   
+ }
+ footer {
+  margin-left: 5px;
+ }
+ footer ul {text-align: center;
+  list-style-type: none;
+color: ghostwhite;}
+ 
+ 
